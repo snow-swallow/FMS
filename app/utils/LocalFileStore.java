@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
 
+import play.Logger;
 import play.Play;
 
 /**
@@ -27,7 +28,7 @@ public final class LocalFileStore {
 			throws IOException {
 		File saveFile = new File(BASE_PIC_DIR + bucketName, fileName);
 		FileUtils.copyFile(src, saveFile);
-		System.out.println("---uploaded---");
+		Logger.warn("uploaded to local fms repository");
 	}
 
 	public String getUrl(String bucketName, String fileName) {
@@ -36,7 +37,7 @@ public final class LocalFileStore {
 	}
 
 	public String getPath(String bucketName, String fileName) {
-		return Play.configuration.getProperty("application.baseDIR") + "/"
+		return Play.configuration.getProperty("application.baseDIR")
 				+ bucketName + "/" + fileName;
 	}
 }

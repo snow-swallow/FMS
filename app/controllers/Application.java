@@ -3,7 +3,6 @@ package controllers;
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.Map;
 
 import models.ImageFull;
@@ -16,7 +15,6 @@ import org.apache.commons.lang.RandomStringUtils;
 import play.Logger;
 import play.Play;
 import play.mvc.Controller;
-import play.mvc.Http.Header;
 import play.templates.JavaExtensions;
 import utils.CommonUtils;
 import utils.GenThumbnails;
@@ -30,10 +28,10 @@ public class Application extends Controller {
 	public static final int MAX_SIZE = 1650;
 
 	public static void index() {
-		Logger.error("----here---");
-		for (Map.Entry<String, Header> e : request.headers.entrySet()) {
-			System.err.println(e.getKey() + ":" + e.getValue());
-		}
+		// Logger.error("----here---");
+		// for (Map.Entry<String, Header> e : request.headers.entrySet()) {
+		// System.err.println(e.getKey() + ":" + e.getValue());
+		// }
 		renderText("The server is running now!");
 	}
 
@@ -58,10 +56,10 @@ public class Application extends Controller {
 		}
 		ImageQueue.getInstance().add(imageName, imageSize, bucketName, width,
 				height);
-		String url = LocalFileStore.getInstance().getUrl(bucketName,
+		String thumbnailURL = LocalFileStore.getInstance().getUrl(bucketName,
 				CommonUtils.getKey(imageName, imageSize));
-		System.err.println("url=" + url);
-		redirect(url);
+		Logger.warn("getThumbnailUrl=" + thumbnailURL);
+		redirect(thumbnailURL);
 	}
 
 	public static void getImageInfo(String imageName, String imageSize,
@@ -120,7 +118,7 @@ public class Application extends Controller {
 
 	private static void uploadFile(File qqfile, String originName,
 			String bucketName, String source) {
-		System.err.println("originName= " + originName + ", bucketName= "
+		Logger.warn("uploadFile: originName= " + originName + ", bucketName= "
 				+ bucketName + ", source= " + source);
 		Map<String, String> picInfoStr = GenThumbnails.getPicInfo(qqfile);
 		String newImageName = genFileName(originName);
@@ -155,21 +153,24 @@ public class Application extends Controller {
 
 	private static Map<String, String> createThumbnailImage(String imageName,
 			String imageSize, String bucketName) {
-		Logger.error("imageName=" + imageName);
-		Logger.error("imageSize=" + imageSize);
-		Logger.error("bucketName=" + bucketName);
+		Logger.warn("createThumbnailImage: imageName=" + imageName
+				+ ", imageSize=" + imageSize + ", bucketName=" + bucketName);
 		try {
-			String s = genFileName(imageName);
-			File srcImage = new File(new File("tmp/"), s);
-			Logger.error("s=" + s);
-			URL url = new URL(LocalFileStore.getInstance().getUrl(bucketName,
-					CommonUtils.getKey(imageName, "origin")));
-			Logger.warn("url.content=" + url.getContent());
-			FileUtils.copyURLToFile(url, srcImage);
-			// FileUtils
-			// .copyFile(
-			// new File(LocalFileStore.getInstance().getPath(bucketName,
-			// CommonUtils.getKey(imageName, "origin"))), srcImage);
+			File srcImage = new File(new File("tmp/"), genFileName(imageName));
+			String picUrl = LocalFileStore.getInstance().getUrl(bucketName,
+					CommonUtils.getKey(imageName, "origin"));
+			String picUrl2 = picUrl.replace(
+					Play.configuration.getProperty("application.baseUrl")
+							+ "pic/",
+					Play.configuration.getProperty("application.baseDIR"));
+			System.err.println("picUrl=" + picUrl + ", picUrl2=" + picUrl2);
+
+			// FileUtils.copyURLToFile(new URL(picUrl2), srcImage);
+
+			String path = LocalFileStore.getInstance().getPath(bucketName,
+					CommonUtils.getKey(imageName, "origin"));
+			System.err.println("path=" + path);
+			FileUtils.copyFile(new File(path), srcImage);
 
 			srcImage = GenThumbnails.thumbnail(srcImage, imageSize);
 

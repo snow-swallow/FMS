@@ -159,12 +159,6 @@ public class Application extends Controller {
 			File srcImage = new File(new File("tmp/"), genFileName(imageName));
 			String picUrl = LocalFileStore.getInstance().getUrl(bucketName,
 					CommonUtils.getKey(imageName, "origin"));
-			String picUrl2 = picUrl.replace(
-					Play.configuration.getProperty("application.baseUrl")
-							+ "pic/",
-					Play.configuration.getProperty("application.baseDIR"));
-			System.err.println("picUrl=" + picUrl + ", picUrl2=" + picUrl2);
-
 			// FileUtils.copyURLToFile(new URL(picUrl2), srcImage);
 
 			String path = LocalFileStore.getInstance().getPath(bucketName,

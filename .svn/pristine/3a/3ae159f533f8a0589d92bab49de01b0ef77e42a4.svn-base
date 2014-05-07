@@ -1,8 +1,0 @@
-GET		/											Application.index
-POST	/form										Application.uploadOriginFileByForm
-POST	/stream										Application.uploadOriginFile
-GET		/{bucketName}/{imageSize}/{imageName}		Application.getThumbnailUrl
-GET		/{bucketName}/{imageName}					Application.getThumbnailUrl
-GET		/{bucketName}/{imageSize}/{imageName}/info	Application.getImageInfo
-GET		/{bucketName}/{imageName}/info				Application.getImageInfo
-GET		/status										Application.getStatus

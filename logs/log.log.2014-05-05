@@ -1,0 +1,1042 @@
+2014-05-05 09:04:50 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i59hibe5
+Internal Server Error (500) for request POST /stream?qqfile=%25E5%2590%2591%25E6%2597%25A5%25E8%2591%25B5%25E5%2589%25AF%25E6%259C%25AC.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:52)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:52)
+	at controllers.Application.uploadFile(Application.java:99)
+	at controllers.Application.uploadOriginFile(Application.java:91)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 09:06:57 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i59hibe6
+Internal Server Error (500) for request POST /stream?qqfile=%25E5%2590%2591%25E6%2597%25A5%25E8%2591%25B5%25E5%2589%25AF%25E6%259C%25AC%2B2.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:52)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:52)
+	at controllers.Application.uploadFile(Application.java:99)
+	at controllers.Application.uploadOriginFile(Application.java:91)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 09:09:13 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 09:10:30 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5edmk3m
+Internal Server Error (500) for request POST /stream?qqfile=%25E5%2590%2591%25E6%2597%25A5%25E8%2591%25B5%25E5%2589%25AF%25E6%259C%25AC%2B4.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:52)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:52)
+	at controllers.Application.uploadFile(Application.java:117)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 09:19:37 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 09:20:00 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5ef35oc
+Internal Server Error (500) for request POST /stream?qqfile=up88162137-2.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:52)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:52)
+	at controllers.Application.uploadFile(Application.java:117)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 09:22:28 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5ef35od
+Internal Server Error (500) for request POST /stream?qqfile=up88162137-2.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:52)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:52)
+	at controllers.Application.uploadFile(Application.java:120)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 09:25:15 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 09:25:44 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmki2
+Internal Server Error (500) for request POST /stream?qqfile=up88162137-1.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:52)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:52)
+	at controllers.Application.uploadFile(Application.java:120)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 09:26:21 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmki3
+Internal Server Error (500) for request POST /stream?qqfile=%25E5%2590%2591%25E6%2597%25A5%25E8%2591%25B5%25E5%2589%25AF%25E6%259C%25AC.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:52)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:52)
+	at controllers.Application.uploadFile(Application.java:120)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 09:27:50 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmki4
+Internal Server Error (500) for request POST /stream?qqfile=%25E5%2590%2591%25E6%2597%25A5%25E8%2591%25B5%25E5%2589%25AF%25E6%259C%25AC.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:52)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:52)
+	at controllers.Application.uploadFile(Application.java:120)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 09:28:29 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmki5
+Internal Server Error (500) for request POST /stream?qqfile=up88162137-1.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:52)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:52)
+	at controllers.Application.uploadFile(Application.java:120)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 09:48:04 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmki6
+Internal Server Error (500) for request POST /stream?qqfile=hua4.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:50)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:50)
+	at controllers.Application.uploadFile(Application.java:120)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 10:00:23 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmki7
+Internal Server Error (500) for request POST /stream?qqfile=herb.jpeg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:51)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:51)
+	at controllers.Application.uploadFile(Application.java:120)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 10:00:46 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmki8
+Internal Server Error (500) for request POST /stream?qqfile=up88162137-2.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:51)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:51)
+	at controllers.Application.uploadFile(Application.java:120)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 10:03:19 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmki9
+Error during job execution (jobs.DBStarter)
+
+Compilation error (/app/controllers/Application.java:32)
+The file /app/controllers/Application.java could not be compiled. Error raised is : The method renderJapid() is undefined for the type Application
+
+play.exceptions.CompilationException: The method renderJapid() is undefined for the type Application
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:268)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:478)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:304)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:277)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:337)
+	at play.Play.detectChanges(Play.java:659)
+	at play.Invoker$Invocation.init(Invoker.java:202)
+	at play.jobs.Job.call(Job.java:141)
+	at Invocation.Job(Play!)
+2014-05-05 10:04:19 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmkia
+Error during job execution (jobs.DBStarter)
+
+Compilation error (/app/controllers/Application.java:32)
+The file /app/controllers/Application.java could not be compiled. Error raised is : The method renderJapid() is undefined for the type Application
+
+play.exceptions.CompilationException: The method renderJapid() is undefined for the type Application
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:268)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:478)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:304)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:277)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:337)
+	at play.Play.detectChanges(Play.java:659)
+	at play.Invoker$Invocation.init(Invoker.java:202)
+	at play.jobs.Job.call(Job.java:141)
+	at Invocation.Job(Play!)
+2014-05-05 10:05:19 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmkib
+Error during job execution (jobs.DBStarter)
+
+Compilation error (/app/controllers/Application.java:32)
+The file /app/controllers/Application.java could not be compiled. Error raised is : The method renderJapid() is undefined for the type Application
+
+play.exceptions.CompilationException: The method renderJapid() is undefined for the type Application
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:268)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:478)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:304)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:277)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:337)
+	at play.Play.detectChanges(Play.java:659)
+	at play.Invoker$Invocation.init(Invoker.java:202)
+	at play.jobs.Job.call(Job.java:141)
+	at Invocation.Job(Play!)
+2014-05-05 10:08:26 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmkic
+Internal Server Error (500) for request POST /stream?qqfile=up88162137-1.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:52)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:52)
+	at controllers.Application.uploadFile(Application.java:120)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 10:17:50 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmkid
+Internal Server Error (500) for request POST /stream?qqfile=up88162137-2.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:52)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:52)
+	at controllers.Application.uploadFile(Application.java:120)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 10:23:56 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmkie
+Internal Server Error (500) for request POST /stream?qqfile=up88162137-2.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:52)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:52)
+	at controllers.Application.uploadFile(Application.java:120)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 10:29:45 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5efmkif
+Internal Server Error (500) for request POST /stream?qqfile=up88162137-2.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:53)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:53)
+	at controllers.Application.uploadFile(Application.java:120)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 10:32:17 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 10:46:20 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5f0bn3n
+Internal Server Error (500) for request POST /stream?qqfile=up88162137-2.jpg&bucketName=star&source=webapp
+
+Execution exception (/app/utils/GenThumbnails.java:52)
+ArrayIndexOutOfBoundsException occured : 0
+
+play.exceptions.JavaExecutionException: 0
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at utils.GenThumbnails.getPicInfo(GenThumbnails.java:52)
+	at controllers.Application.uploadFile(Application.java:120)
+	at controllers.Application.uploadOriginFile(Application.java:107)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 10:58:52 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 11:17:08 [WARN] - [org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:169)]  HHH000342: Could not obtain connection to query metadata : An SQLException was provoked by the following failure: java.lang.InterruptedException
+2014-05-05 11:18:59 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 11:20:07 [WARN] - [org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:169)]  HHH000342: Could not obtain connection to query metadata : An SQLException was provoked by the following failure: java.lang.InterruptedException
+2014-05-05 11:22:20 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 14:39:06 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 14:53:59 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 14:56:28 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:56:28 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:56:28 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:56:28 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:56:28 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:56:28 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:56:28 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:56:28 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:56:28 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:56:28 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:56:29 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g77m7f
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:56:29 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g77m7a
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:56:29 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g77m7b
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:56:29 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g77m7e
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:56:29 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g77m78
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:56:29 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g77m7d
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:56:29 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g77m7c
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:56:29 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g77m76
+Internal Server Error (500) for request GET /pic/pic/origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:56:29 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g77m77
+Internal Server Error (500) for request GET /pic/star/origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:56:29 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g77m79
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:57:11 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 14:58:11 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 14:59:17 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:59:17 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:59:17 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:59:17 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:59:17 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:59:17 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:59:17 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:59:17 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:59:17 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:59:17 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 14:59:17 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g7hbn7
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:59:17 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g7hbn6
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:59:17 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g7hbnd
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:59:17 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g7hbnc
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:59:17 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g7hbnb
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:59:17 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g7hbn9
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:59:17 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g7hbna
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:59:17 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g7hbn8
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:59:17 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g7hbn5
+Internal Server Error (500) for request GET /pic/pic/origin_origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 14:59:17 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5g7hbn4
+Internal Server Error (500) for request GET /pic/star/origin_1399272927847gkufb.jpg
+
+Execution exception (/app/controllers/Application.java:50)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:50)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 15:27:23 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 15:27:58 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  java.io.IOException: Destination '/developworks/fms/star/origin_1399274878979gbnny.jpg' directory cannot be created
+java.io.IOException: Destination '/developworks/fms/star/origin_1399274878979gbnny.jpg' directory cannot be created
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:777)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:731)
+	at utils.LocalFileStore.upload(LocalFileStore.java:29)
+	at controllers.Application.uploadFile(Application.java:129)
+	at controllers.Application.uploadOriginFile(Application.java:111)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	at Invocation.HTTP Request(Play!)
+2014-05-05 16:07:22 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 16:10:30 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 16:56:51 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 16:56:51 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 16:56:51 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 16:56:51 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 16:56:51 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 16:56:51 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 16:56:51 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 16:56:51 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 16:56:51 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 16:56:51 [ERROR] - [play.Logger.error(Logger.java:400)]  io error when addThumbnail
+2014-05-05 16:56:52 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5gn2leo
+Internal Server Error (500) for request GET /pic/star/origin_1399280151607uqncb.jpg
+
+Execution exception (/app/controllers/Application.java:49)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:49)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 16:56:52 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5gn2lf2
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_1399280151607uqncb.jpg
+
+Execution exception (/app/controllers/Application.java:49)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:49)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 16:56:52 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5gn2lf0
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_1399280151607uqncb.jpg
+
+Execution exception (/app/controllers/Application.java:49)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:49)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 16:56:52 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5gn2lf5
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_origin_origin_1399280151607uqncb.jpg
+
+Execution exception (/app/controllers/Application.java:49)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:49)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 16:56:52 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5gn2lep
+Internal Server Error (500) for request GET /pic/pic/origin_origin_1399280151607uqncb.jpg
+
+Execution exception (/app/controllers/Application.java:49)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:49)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 16:56:52 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5gn2lf4
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_origin_1399280151607uqncb.jpg
+
+Execution exception (/app/controllers/Application.java:49)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:49)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 16:56:52 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5gn2lf1
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_1399280151607uqncb.jpg
+
+Execution exception (/app/controllers/Application.java:49)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:49)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 16:56:52 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5gn2lf6
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_origin_origin_origin_1399280151607uqncb.jpg
+
+Execution exception (/app/controllers/Application.java:49)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:49)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 16:56:52 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5gn2lf7
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_origin_origin_origin_origin_1399280151607uqncb.jpg
+
+Execution exception (/app/controllers/Application.java:49)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:49)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 16:56:52 [ERROR] - [play.Logger.niceThrowable(Logger.java:571)]  
+
+@6i5gn2lf3
+Internal Server Error (500) for request GET /pic/pic/origin_origin_origin_origin_origin_origin_1399280151607uqncb.jpg
+
+Execution exception (/app/controllers/Application.java:49)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:230)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.getThumbnailUrl(Application.java:49)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:550)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:501)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:477)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:472)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:160)
+	... 1 more
+2014-05-05 20:01:34 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
+2014-05-05 21:18:20 [WARN] - [play.Logger.warn(Logger.java:345)]  You're running Play! in DEV mode
